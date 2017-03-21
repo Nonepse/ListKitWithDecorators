@@ -4,13 +4,16 @@ PODS:
   - IGListKit/Default (2.1.0):
     - IGListKit/Diffing
   - IGListKit/Diffing (2.1.0)
+  - PureLayout (3.0.2)
 
 DEPENDENCIES:
   - IGListKit (~> 2.1.0)
+  - PureLayout (~> 3.0.2)
 
 SPEC CHECKSUMS:
   IGListKit: b826c68ef7a4ae1626c09d4d3e1ea7a169e6c36e
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
 
-PODFILE CHECKSUM: 6f83eeb35170e88739789604e39082b3eb0263e2
+PODFILE CHECKSUM: d69fa47e68c6eff81aefb3639698f884cd1c801a
 
 COCOAPODS: 1.2.0

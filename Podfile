@@ -7,5 +7,6 @@ target 'ListKitWithDecorator' do
 
   # Pods for ListKitWithDecorator
   pod 'IGListKit', '~> 2.1.0'
+  pod 'PureLayout', '~> 3.0.2'
 
 end
