@@ -1,0 +1,6 @@
+framework module Pods_ListKitWithDecorator {
+  umbrella header "Pods-ListKitWithDecorator-umbrella.h"
+
+  export *
+  module * { export * }
+}
