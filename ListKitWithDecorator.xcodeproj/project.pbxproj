@@ -8,19 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2F3FFBBF1E8179D300B898F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FFBBE1E8179D300B898F7 /* AppDelegate.swift */; };
-		2F3FFBC11E8179D300B898F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FFBC01E8179D300B898F7 /* ViewController.swift */; };
+		2F3FFBC11E8179D300B898F7 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FFBC01E8179D300B898F7 /* FeedViewController.swift */; };
 		2F3FFBC61E8179D300B898F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3FFBC51E8179D300B898F7 /* Assets.xcassets */; };
 		2F3FFBC91E8179D300B898F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3FFBC71E8179D300B898F7 /* LaunchScreen.storyboard */; };
+		2F46380B1E817CA9005D211A /* FeedSeparatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46380A1E817CA9005D211A /* FeedSeparatorController.swift */; };
+		2F46380D1E818076005D211A /* NSObject+IGListDiffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46380C1E818076005D211A /* NSObject+IGListDiffable.swift */; };
+		2F46380F1E818096005D211A /* PostSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46380E1E818096005D211A /* PostSectionController.swift */; };
+		2F4638111E818300005D211A /* PostSelfSizingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4638101E818300005D211A /* PostSelfSizingCell.swift */; };
 		BE13FE62B7DBAF3E32BF2507 /* Pods_ListKitWithDecorator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C98F8380E9FF4664D832548 /* Pods_ListKitWithDecorator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F3FFBBB1E8179D300B898F7 /* ListKitWithDecorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListKitWithDecorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3FFBBE1E8179D300B898F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F3FFBC01E8179D300B898F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F3FFBC01E8179D300B898F7 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2F3FFBC51E8179D300B898F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3FFBC81E8179D300B898F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F3FFBCA1E8179D300B898F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F46380A1E817CA9005D211A /* FeedSeparatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedSeparatorController.swift; sourceTree = "<group>"; };
+		2F46380C1E818076005D211A /* NSObject+IGListDiffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+IGListDiffable.swift"; sourceTree = "<group>"; };
+		2F46380E1E818096005D211A /* PostSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSectionController.swift; sourceTree = "<group>"; };
+		2F4638101E818300005D211A /* PostSelfSizingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSelfSizingCell.swift; sourceTree = "<group>"; };
 		3C98F8380E9FF4664D832548 /* Pods_ListKitWithDecorator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListKitWithDecorator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA51CAFA6FC974E54846539 /* Pods-ListKitWithDecorator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListKitWithDecorator.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListKitWithDecorator/Pods-ListKitWithDecorator.release.xcconfig"; sourceTree = "<group>"; };
 		A6675AEA63DA127999703884 /* Pods-ListKitWithDecorator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListKitWithDecorator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ListKitWithDecorator/Pods-ListKitWithDecorator.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,7 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				2F3FFBBE1E8179D300B898F7 /* AppDelegate.swift */,
-				2F3FFBC01E8179D300B898F7 /* ViewController.swift */,
+				2F3FFBC01E8179D300B898F7 /* FeedViewController.swift */,
+				2F46380E1E818096005D211A /* PostSectionController.swift */,
+				2F4638101E818300005D211A /* PostSelfSizingCell.swift */,
+				2F46380A1E817CA9005D211A /* FeedSeparatorController.swift */,
+				2F46380C1E818076005D211A /* NSObject+IGListDiffable.swift */,
 				2F3FFBC51E8179D300B898F7 /* Assets.xcassets */,
 				2F3FFBC71E8179D300B898F7 /* LaunchScreen.storyboard */,
 				2F3FFBCA1E8179D300B898F7 /* Info.plist */,
@@ -208,8 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3FFBC11E8179D300B898F7 /* ViewController.swift in Sources */,
+				2F46380D1E818076005D211A /* NSObject+IGListDiffable.swift in Sources */,
+				2F4638111E818300005D211A /* PostSelfSizingCell.swift in Sources */,
+				2F3FFBC11E8179D300B898F7 /* FeedViewController.swift in Sources */,
 				2F3FFBBF1E8179D300B898F7 /* AppDelegate.swift in Sources */,
+				2F46380B1E817CA9005D211A /* FeedSeparatorController.swift in Sources */,
+				2F46380F1E818096005D211A /* PostSectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
