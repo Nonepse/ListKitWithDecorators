@@ -12,12 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let iWantACollectionView = true
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+        let mainNavigationController: UINavigationController
         
-        let feedViewController = FeedViewController()
-        let mainNavigationController = UINavigationController(rootViewController: feedViewController)
+        if iWantACollectionView {
+            mainNavigationController = UINavigationController(rootViewController: FeedCollectionViewController())
+        } else {
+            mainNavigationController = UINavigationController(rootViewController: FeedViewController())
+        }
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = mainNavigationController

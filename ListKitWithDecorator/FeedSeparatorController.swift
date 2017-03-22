@@ -82,3 +82,9 @@ extension FeedViewController: FeedLayoutDecorationDelegate {
         return []
     }
 }
+
+extension FeedCollectionViewController: FeedLayoutDecorationDelegate {
+    func cellsThatNeedSeparator(atSection section: Int) -> [Int] {
+        return [1, 3]
+    }
+}

@@ -37,7 +37,7 @@ class FeedViewController: UIViewController, IGListAdapterDataSource {
         self.adapter.collectionView = self.collectionView
         self.adapter.dataSource = self
         
-        self.title = "Feed"
+        self.title = "IGListKit Feed"
     }
     
     required init?(coder aDecoder: NSCoder) {

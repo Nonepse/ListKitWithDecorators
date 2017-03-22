@@ -33,7 +33,7 @@ class PostSelfSizingCell: UICollectionViewCell {
         
         return layoutAttributes
     }
-
+    
     private func setupCell() {
         self.backgroundColor = .white
         
@@ -46,7 +46,7 @@ class PostSelfSizingCell: UICollectionViewCell {
     
     private lazy var postTextLabel: UILabel = {
         let postTextLabel = UILabel()
-        postTextLabel.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor rhoncus enim eget dapibus. Cras rutrum mauris augue, a suscipit libero efficitur quis."
+        postTextLabel.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor rhoncus enim eget dapibus. Cras rutrum mauris augue, a suscipit libero efficitur quis. Cras rutrum mauris augue, a suscipit libero efficitur quis."
         postTextLabel.numberOfLines = 0
 
         return postTextLabel
